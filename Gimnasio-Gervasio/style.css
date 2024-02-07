@@ -1,0 +1,45 @@
+:root{
+    --shadow: #DCDCDC;
+    --black: #080808
+}
+th{
+    padding: 0%;
+    text-align: left;
+    background-color: var(--shadow);
+}
+table{
+    border-collapse: collapse;
+    width: 40%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid var(--black);
+  }
+  td{
+    width: 25%;
+  }
+  ul{
+    text-align: center;
+  }
+ul>li{
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+    margin-right: 25px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: blueviolet;
+}
+figure>img{
+    width: 35%;
+    text-align: center;
+}
+figure>figcaption{
+    text-align: center;
+}
+video{
+    width: 35%;
+    text-align: center;
+}
